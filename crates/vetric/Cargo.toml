@@ -1,0 +1,22 @@
+[package]
+name = "vetric"
+description = "Typesafe metrics client"
+readme = "README.md"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+vetric-macros = { version = "0.1.0", path = "../vetric-macros" }
+
+compile-fmt.workspace = true
+elsa.workspace = true
+linkme.workspace = true
+once_cell.workspace = true
+prometheus-client.workspace = true
+
+[dev-dependencies]
+assert_matches.workspace = true
+derive_more.workspace = true
+rand.workspace = true
+trybuild.workspace = true
+version-sync.workspace = true
